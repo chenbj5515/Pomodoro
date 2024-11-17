@@ -1,0 +1,36 @@
+/* .infinite-scroll-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.infinite-scroll-content {
+  display: flex;
+  overflow: hidden;
+  width: 60%;
+  height: 40%;
+  position: relative;
+  scroll-behavior: smooth;
+  cursor: grab;
+}
+
+.infinite-scroll-content:active {
+  cursor: grabbing;
+}
+
+.infinite-scroll-item {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+  margin: 0 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+} */
+
+*::-webkit-scrollbar {
+  display: none; /* 适用于 Chrome, Safari 和 Edge */
+}
